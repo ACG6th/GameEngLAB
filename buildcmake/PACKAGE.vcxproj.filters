@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\fahim\GameEngLAB\buildcmake\CMakeFiles\6c32c0884a439e99d3a55d83811880b8\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9B0F01F9-8606-3074-8E58-9B782BB81F96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

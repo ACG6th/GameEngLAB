@@ -1,0 +1,520 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+      Build started 25/09/2024 17:09:35.
+      
+      Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.78
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/3.30.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+      Build started 25/09/2024 17:09:38.
+      
+      Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.78
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/3.30.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-m4i8kg"
+      binary: "C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-m4i8kg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-m4i8kg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_da394.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 25/09/2024 17:09:40.
+        
+        Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-m4i8kg\\cmTC_da394.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_da394.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-m4i8kg\\Debug\\".
+          Creating directory "cmTC_da394.dir\\Debug\\cmTC_da394.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_da394.dir\\Debug\\cmTC_da394.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_da394.dir\\Debug\\cmTC_da394.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da394.dir\\Debug\\\\" /Fd"cmTC_da394.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da394.dir\\Debug\\\\" /Fd"cmTC_da394.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-m4i8kg\\Debug\\cmTC_da394.exe" /INCREMENTAL /ILK:"cmTC_da394.dir\\Debug\\cmTC_da394.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-m4i8kg/Debug/cmTC_da394.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-m4i8kg/Debug/cmTC_da394.lib" /MACHINE:X64  /machine:x64 cmTC_da394.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_da394.vcxproj -> C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-m4i8kg\\Debug\\cmTC_da394.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_da394.dir\\Debug\\cmTC_da394.tlog\\unsuccessfulbuild".
+          Touching "cmTC_da394.dir\\Debug\\cmTC_da394.tlog\\cmTC_da394.lastbuildstate".
+        Done Building Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-m4i8kg\\cmTC_da394.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.58
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-98v6pj"
+      binary: "C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-98v6pj"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-98v6pj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_82bc8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 25/09/2024 17:09:42.
+        
+        Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-98v6pj\\cmTC_82bc8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_82bc8.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-98v6pj\\Debug\\".
+          Creating directory "cmTC_82bc8.dir\\Debug\\cmTC_82bc8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_82bc8.dir\\Debug\\cmTC_82bc8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_82bc8.dir\\Debug\\cmTC_82bc8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_82bc8.dir\\Debug\\\\" /Fd"cmTC_82bc8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_82bc8.dir\\Debug\\\\" /Fd"cmTC_82bc8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-98v6pj\\Debug\\cmTC_82bc8.exe" /INCREMENTAL /ILK:"cmTC_82bc8.dir\\Debug\\cmTC_82bc8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-98v6pj/Debug/cmTC_82bc8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-98v6pj/Debug/cmTC_82bc8.lib" /MACHINE:X64  /machine:x64 cmTC_82bc8.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_82bc8.vcxproj -> C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-98v6pj\\Debug\\cmTC_82bc8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_82bc8.dir\\Debug\\cmTC_82bc8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_82bc8.dir\\Debug\\cmTC_82bc8.tlog\\cmTC_82bc8.lastbuildstate".
+        Done Building Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-98v6pj\\cmTC_82bc8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.60
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "lib/sfml/cmake/Config.cmake:10 (check_type_size)"
+      - "lib/sfml/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-002snt"
+      binary: "C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-002snt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/fahim/GameEngLAB/lib/sfml/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-002snt'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_215fc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 25/09/2024 17:09:44.
+        
+        Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-002snt\\cmTC_215fc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_215fc.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-002snt\\Debug\\".
+          Creating directory "cmTC_215fc.dir\\Debug\\cmTC_215fc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_215fc.dir\\Debug\\cmTC_215fc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_215fc.dir\\Debug\\cmTC_215fc.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_215fc.dir\\Debug\\\\" /Fd"cmTC_215fc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-002snt\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_215fc.dir\\Debug\\\\" /Fd"cmTC_215fc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-002snt\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-002snt\\Debug\\cmTC_215fc.exe" /INCREMENTAL /ILK:"cmTC_215fc.dir\\Debug\\cmTC_215fc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-002snt/Debug/cmTC_215fc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-002snt/Debug/cmTC_215fc.lib" /MACHINE:X64  /machine:x64 cmTC_215fc.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_215fc.vcxproj -> C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-002snt\\Debug\\cmTC_215fc.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_215fc.dir\\Debug\\cmTC_215fc.tlog\\unsuccessfulbuild".
+          Touching "cmTC_215fc.dir\\Debug\\cmTC_215fc.tlog\\cmTC_215fc.lastbuildstate".
+        Done Building Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-002snt\\cmTC_215fc.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.59
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "lib/sfml/cmake/Config.cmake:10 (check_type_size)"
+      - "lib/sfml/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-femfhf"
+      binary: "C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-femfhf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/fahim/GameEngLAB/lib/sfml/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-femfhf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a4906.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 25/09/2024 17:09:46.
+        
+        Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-femfhf\\cmTC_a4906.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a4906.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-femfhf\\Debug\\".
+          Creating directory "cmTC_a4906.dir\\Debug\\cmTC_a4906.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a4906.dir\\Debug\\cmTC_a4906.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a4906.dir\\Debug\\cmTC_a4906.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4906.dir\\Debug\\\\" /Fd"cmTC_a4906.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-femfhf\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4906.dir\\Debug\\\\" /Fd"cmTC_a4906.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-femfhf\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-femfhf\\Debug\\cmTC_a4906.exe" /INCREMENTAL /ILK:"cmTC_a4906.dir\\Debug\\cmTC_a4906.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-femfhf/Debug/cmTC_a4906.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-femfhf/Debug/cmTC_a4906.lib" /MACHINE:X64  /machine:x64 cmTC_a4906.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a4906.vcxproj -> C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-femfhf\\Debug\\cmTC_a4906.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a4906.dir\\Debug\\cmTC_a4906.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a4906.dir\\Debug\\cmTC_a4906.tlog\\cmTC_a4906.lastbuildstate".
+        Done Building Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-femfhf\\cmTC_a4906.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:253 (check_include_file)"
+      - "lib/sfml/cmake/Config.cmake:10 (check_type_size)"
+      - "lib/sfml/CMakeLists.txt:41 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-1q4390"
+      binary: "C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-1q4390"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/fahim/GameEngLAB/lib/sfml/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-1q4390'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_27757.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 25/09/2024 17:09:49.
+        
+        Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-1q4390\\cmTC_27757.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_27757.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-1q4390\\Debug\\".
+          Creating directory "cmTC_27757.dir\\Debug\\cmTC_27757.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_27757.dir\\Debug\\cmTC_27757.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_27757.dir\\Debug\\cmTC_27757.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27757.dir\\Debug\\\\" /Fd"cmTC_27757.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-1q4390\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27757.dir\\Debug\\\\" /Fd"cmTC_27757.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-1q4390\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-1q4390\\Debug\\cmTC_27757.exe" /INCREMENTAL /ILK:"cmTC_27757.dir\\Debug\\cmTC_27757.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-1q4390/Debug/cmTC_27757.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-1q4390/Debug/cmTC_27757.lib" /MACHINE:X64  /machine:x64 cmTC_27757.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_27757.vcxproj -> C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-1q4390\\Debug\\cmTC_27757.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_27757.dir\\Debug\\cmTC_27757.tlog\\unsuccessfulbuild".
+          Touching "cmTC_27757.dir\\Debug\\cmTC_27757.tlog\\cmTC_27757.lastbuildstate".
+        Done Building Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-1q4390\\cmTC_27757.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.56
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "lib/sfml/cmake/Config.cmake:10 (check_type_size)"
+      - "lib/sfml/CMakeLists.txt:41 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-mvaxii"
+      binary: "C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-mvaxii"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_SYSROOT: ""
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "C:/Users/fahim/GameEngLAB/lib/sfml/cmake/CompilerOptionsOverride.cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-mvaxii'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c75d3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.9+a69bbaaf5 for .NET Framework
+        Build started 25/09/2024 17:09:51.
+        
+        Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-mvaxii\\cmTC_c75d3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c75d3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-mvaxii\\Debug\\".
+          Creating directory "cmTC_c75d3.dir\\Debug\\cmTC_c75d3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c75d3.dir\\Debug\\cmTC_c75d3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c75d3.dir\\Debug\\cmTC_c75d3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c75d3.dir\\Debug\\\\" /Fd"cmTC_c75d3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-mvaxii\\SIZEOF_VOID_PTR.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c75d3.dir\\Debug\\\\" /Fd"cmTC_c75d3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-mvaxii\\SIZEOF_VOID_PTR.c"
+          SIZEOF_VOID_PTR.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-mvaxii\\Debug\\cmTC_c75d3.exe" /INCREMENTAL /ILK:"cmTC_c75d3.dir\\Debug\\cmTC_c75d3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-mvaxii/Debug/cmTC_c75d3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/fahim/GameEngLAB/buildcmake/CMakeFiles/CMakeScratch/TryCompile-mvaxii/Debug/cmTC_c75d3.lib" /MACHINE:X64  /machine:x64 cmTC_c75d3.dir\\Debug\\SIZEOF_VOID_PTR.obj
+          cmTC_c75d3.vcxproj -> C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-mvaxii\\Debug\\cmTC_c75d3.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c75d3.dir\\Debug\\cmTC_c75d3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c75d3.dir\\Debug\\cmTC_c75d3.tlog\\cmTC_c75d3.lastbuildstate".
+        Done Building Project "C:\\Users\\fahim\\GameEngLAB\\buildcmake\\CMakeFiles\\CMakeScratch\\TryCompile-mvaxii\\cmTC_c75d3.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.63
+        
+      exitCode: 0
+...
